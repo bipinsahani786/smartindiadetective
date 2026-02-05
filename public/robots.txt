@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /api
+Disallow: /storage
+Disallow: /*.json$
+Disallow: /*.log$
+
+# Allow search engines to crawl CSS, JS and images
+User-agent: Googlebot
+Allow: *.css$
+Allow: *.js$
+Allow: *.gif$
+Allow: *.jpg$
+Allow: *.jpeg$
+Allow: *.png$
+Allow: *.svg$
+Allow: *.webp$
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://smartindiadetective.com/sitemap.xml
